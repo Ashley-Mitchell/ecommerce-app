@@ -1,0 +1,47 @@
+/* src/pages/Cart.module.css */
+
+.cartContainer {
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .cartTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cartTable th,
+  .cartTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .couponSection {
+    margin: 20px 0;
+  }
+  
+  .couponSection input {
+    margin-right: 10px;
+  }
+  
+  .cartTotal {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .backButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .backButton:hover {
+    background-color: #0056b3;
+  }
+  

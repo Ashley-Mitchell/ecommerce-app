@@ -1,0 +1,138 @@
+/* src/components/ProductCard.module.css */
+.productCard {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.productName {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.productDescription {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.price {
+  color: #db4444;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.addToCartButton {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+}
+
+.viewDetailsIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #db4444;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.wishlistIcon {
+  color: #ff4081;
+  font-size: 1.2em;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.wishlistIcon:hover {
+  color: #ff80ab;
+}
+
+
+.popupMessage {
+  position: absolute; /* Position it relative to the ProductCard */
+  top: 10px; /* Adjust based on design */
+  right: 10px; /* Adjust based on design */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  animation: fadeIn 0.5s, fadeOut 0.5s 1.5s; /* Fade in and out */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.viewDetailsIcon,
+.wishlistIcon {
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: #DB4444; /* Match color with your theme */
+  margin-left: 10px; /* Add spacing between icons */
+  cursor: pointer; /* Indicate it's clickable */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.viewDetailsIcon:hover,
+.wishlistIcon:hover {
+  color: #ff0000; /* Change color on hover for both icons */
+}
+
+/* Make sure the productCard class has relative positioning to position popup correctly */
+.productCard {
+  position: relative; /* Needed for the popupMessage positioning */
+}
+
+.viewDetailsIcon,
+.wishlistIcon {
+  font-size: 1.5rem; /* Same size as eye icon */
+  color: #DB4444; /* Match color with your theme */
+  margin-left: 10px; /* Add spacing between icons */
+  cursor: pointer; /* Indicate it's clickable */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+
+.viewDetailsIcon:hover,
+.wishlistIcon:hover {
+  color: #ff0000; /* Change color on hover for both icons */
+}
+
+/* Ensure the popupMessage is styled as needed */
+.popupMessage {
+  position: absolute; /* Ensure it appears above other content */
+  background-color: #fff; /* Background for the message */
+  -webkit-text-fill-color: #000;
+  padding: 5px 10px; /* Padding for the message */
+  border: 1px solid #000; /* Optional border */
+  border-radius: 5px; /* Rounded corners */
+  z-index: 1; /* Ensure it appears above other elements */
+  /* Position it appropriately based on your layout */
+}

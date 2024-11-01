@@ -1,0 +1,179 @@
+/* src/App.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Top Header styles */
+.top-header {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.top-header a {
+  color: #f8d12f;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Header styles */
+header {
+  background-color: #444;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav a {
+  color: #ddd;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #f8d12f;
+}
+
+header .search-bar input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+header .icons a {
+  color: #ddd;
+  margin: 0 8px;
+  font-size: 18px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #e03636;
+  color: #ddd;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer h4 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer .exclusive {
+  margin-bottom: 20px;
+}
+
+footer .exclusive input {
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+footer .social-media a {
+  margin: 0 5px;
+  color: #f8d12f;
+  text-decoration: none;
+}
+
+footer .social-media a:hover {
+  color: #f8a600;
+}
+
+footer p {
+  margin-top: 20px;
+  text-align: center;
+  color: #888;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.auth-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.auth-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #BB4444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #1c874c;
+}
+
+.cart {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cart-item button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+  font-weight: bold;
+}
+

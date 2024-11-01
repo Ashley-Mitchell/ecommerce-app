@@ -1,0 +1,19 @@
+/* src/pages/Cart.module.css */
+.cart {
+    padding: 20px;
+  }
+  
+  .cartImage {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

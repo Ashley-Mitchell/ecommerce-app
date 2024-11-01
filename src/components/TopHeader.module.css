@@ -1,0 +1,23 @@
+/* TopHeader.module.css */
+.topHeader {
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.link {
+  color: white; /* White link color */
+  text-decoration: none;
+  margin-left: 20px; /* Space between links */
+}
+
+.languagePicker {
+  margin-left: 20px; /* Space between link and language picker */
+  background-color: black; /* Match background */
+  color: white; /* White text */
+  border: 1px solid white; /* White border */
+  padding: 5px; /* Padding for the dropdown */
+}

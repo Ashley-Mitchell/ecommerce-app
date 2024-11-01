@@ -1,0 +1,57 @@
+/* Footer.module.css */
+.footer {
+  background-color: black; /* Black background */
+  color: white; /* White text */
+  text-align: center;
+  padding: 20px; /* Padding for footer */
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-around; /* Adjust spacing as needed */
+  flex-wrap: wrap; /* Wrap items on smaller screens */
+}
+
+.footerSection {
+  flex: 1; /* Flex property for responsive design */
+  min-width: 200px; /* Minimum width for footer sections */
+  padding: 10px; /* Padding for sections */
+}
+
+.subscribeInput {
+  padding: 5px; /* Padding for the input field */
+}
+
+.subscribeButton {
+  padding: 5px 10px; /* Padding for the button */
+  margin-left: 5px; /* Space between input and button */
+}
+
+.copyright {
+  color: gray; /* Gray color for fine print */
+  font-size: 0.8em; /* Smaller font size for copyright */
+  margin-top: 10px; /* Space above copyright text */
+}
+
+/* Link Styles */
+.footer a {
+  color: white; /* White color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+  color: lightgray; /* Light gray on hover for better visibility */
+}
+
+
+/* Remove bullet points from lists */
+.footer ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.footer li {
+  margin: 5px 0; /* Add some spacing between list items */
+}
